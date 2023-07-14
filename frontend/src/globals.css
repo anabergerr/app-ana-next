@@ -34,3 +34,6 @@ p {
   color: aliceblue;
 }
 
+.container {
+  position: relative; /* mandatory */
+}
