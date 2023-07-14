@@ -67,7 +67,7 @@ export default function Home() {
 
           <section className="socials text-center">
             {/* Ícones das redes sociais */}
-            <p>{'<Me acompanhe aqui />'}</p>
+            <p>{'<Acompanhe aqui />'}</p>
             <div className="flex justify-between mt-5">
               <a href="https://www.linkedin.com/in/ana-laura-berger/" target='_blank'>
                 <FontAwesomeIcon icon={faLinkedin} style={{ width: '2em', height: '2em' }} />
