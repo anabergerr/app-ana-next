@@ -55,7 +55,7 @@ export default function Home() {
             <img src={myImageSrc} alt="My Image" width={300} className="image-ana mx-auto filter grayscale" />
             <div className='container'>
               <p className="mt-10 text-center">
-                Ola, eu sou a Ana. Sou desenvolvedora de software e trabalho com instrutora de tecnologia na @Trybe.
+                Ola, eu sou a Ana. Sou desenvolvedora de software e sou instrutora de tecnologia na @Trybe.
               </p>
               <p className='mt-2 text-center'>
                 Saiba mais acessando minhas redes :)

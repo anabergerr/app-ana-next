@@ -26,7 +26,7 @@ export default function Home() {
     }
   }, []);
 
-  
+
   const router = useRouter();
 
   const toggleLanguage = () => {
@@ -49,7 +49,8 @@ export default function Home() {
             <img src={myImageSrc} alt="My Image" width={300} className="image-ana mx-auto filter grayscale" />
             <div className='container'>
               <p className="mt-10 text-center">
-                Hello, I'm Ana. I'm a software developer and currently work as a technology instructor at @Trybe.
+
+                Hello, I am Ana. I am a software developer and a technology instructor." @Trybe.
               </p>
               <p className='mt-2 text-center'>
                 Learn more by accessing my social networks :)
