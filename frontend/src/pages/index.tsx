@@ -5,21 +5,11 @@ import React from 'react';
 import Sparkles from 'react-sparkle'
 import { useRouter } from 'next/router';
 
-
-
-
-
-
-
 import ana from '../../public/ana.png'
 import 'tailwindcss/tailwind.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faDev} from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
-
-
-
 
 const myImageSrc = ana.src as string;
 
@@ -77,6 +67,9 @@ export default function Home() {
               </a>
               <a href="https://www.codewars.com/users/analauraa.js" target='_blank'>
                 <FontAwesomeIcon icon={faLaptopCode} style={{ width: '2em', height: '2em' }} />
+              </a>
+              <a href="https://dev.to/anabergerr" target='_blank'>
+                <FontAwesomeIcon icon={faDev} style={{ width: '2em', height: '2em' }} />
               </a>
             </div>
           </section>
