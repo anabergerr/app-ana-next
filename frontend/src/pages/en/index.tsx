@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <button onClick={toggleLanguage}>PT</button>
+      <button className='lang-button' onClick={toggleLanguage}>PT</button>
       <div className="flex flex-col min-h-screen">
         <main className="flex-grow grid place-items-center mt-10">
           <section>
