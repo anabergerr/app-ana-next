@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import React from 'react';
 import Sparkles from 'react-sparkle'
 import { useRouter } from 'next/router';
-import ana from '../../../public/ana.png'
+import ana from '../../../public/ana.jpeg'
 import 'tailwindcss/tailwind.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
