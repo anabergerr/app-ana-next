@@ -65,7 +65,7 @@ export default function Home() {
               <a href="https://github.com/anabergerr" target='_blank'>
                 <FontAwesomeIcon icon={faGithub} style={{ width: '2em', height: '2em' }} />
               </a>
-              <a href="https://www.codewars.com/users/analauraa.js" target='_blank'>
+              <a href="https://www.codewars.com/users/ana_js" target='_blank'>
                 <FontAwesomeIcon icon={faLaptopCode} style={{ width: '2em', height: '2em' }} />
               </a>
               <a href="https://dev.to/analaura" target='_blank'>
